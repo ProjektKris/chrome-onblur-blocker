@@ -1,0 +1,18 @@
+{
+    "name": "onblur blocker",
+    "description": "Blocks window.onblur events",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["main.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["onblur_disconnect.js"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+}

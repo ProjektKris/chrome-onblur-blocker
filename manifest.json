@@ -1,5 +1,5 @@
 {
-    "name": "onblur blocker",
+    "name": "window.onblur Blocker",
     "description": "Blocks window.onblur events",
     "version": "1.0",
     "manifest_version": 3,
